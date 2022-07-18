@@ -28,3 +28,12 @@ CREATE DATABASE sky; --create the database
 cd your_sknet2.0_root/skynet-scripts/testing/v2
 python3 create_test_database.py
 ```
+
+## Reload Catalogs
+```zsh
+cd your_sknet2.0_root/skynet-scripts/catalogs
+python major_solar_system_init.py
+python norad_update.py
+python mpc_comet_update.py
+python mpc_orbit_update.py
+```
