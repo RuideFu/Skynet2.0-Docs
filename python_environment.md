@@ -8,6 +8,8 @@
 *   skynet-python
 *   skynet-scripts
 
+You need to log in with a Gitbucket account (could also be your UNC Onyen and pwd).
+
 ## Python Virtual Environment
 ### Install the correct python version
 If your current python version is not 3.8, the install 3.8 from [python.org](https://www.python.org/downloads/release/python-3810/) or your prefered package manager.
