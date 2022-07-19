@@ -2,7 +2,7 @@
 
 ## Repos
 `git clone` the following repos from [Skynet Gitbucket](https://code.skynet.unc.edu/projects/SKYNET):
-*   [skynet-dashboard]()
+*   skynet-dashboard
 *   skynet-dashboard-api
 *   skynet-api
 *   skynet-python
