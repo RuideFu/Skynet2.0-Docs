@@ -1,7 +1,7 @@
 # Installation Required for Dev Environment
 
 ## Repos
-`git clone` the following repos:
+`git clone` the following repos from [Skynet Git Bucket](https://code.skynet.unc.edu/projects/SKYNET):
 *   skynet-dashboard
 *   skynet-dashboard-api
 *   skynet-api
