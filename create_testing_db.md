@@ -5,6 +5,13 @@ __Reed Fu, Created on July 18th, 2022__
 ## Install & Open Mariadb
 Download maridab in your prefered way. Then open mariadb in cml. For Mac/Linux just go straight to terminal. In Windows, search Mariadb in start and run it as an admin.
 
+Mariadb is required to run as a service for dev and config. If you install Mariadb with Homebrew, you can run and stop using the following command.
+
+```sh
+brew services start mariadb
+brew services stop mariadb
+```
+
 Then run the following command
 ```zsh
 mariadb -u root -p
@@ -37,3 +44,8 @@ python norad_update.py
 python mpc_comet_update.py
 python mpc_orbit_update.py
 ```
+
+## Install Redis
+Install Redis in your preferred way. In Windows, Redis could be only installed through WSL, make sure you have WSL ready to go.
+
+Run Redis as service similar to mariadb.
