@@ -29,3 +29,6 @@ And run the following for each repo
 ```sh
 pipenv install
 ```
+If application/scripts failed to run, compare your `pip list` to the [requirements.txt](requirements.txt) sample see if there are any difference.
+
+`flask-smorest==0.34.0` has caused a lot of troubled before.
