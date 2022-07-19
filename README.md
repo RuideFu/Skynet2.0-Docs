@@ -12,3 +12,6 @@ Read [ME](configuration.md)
 
 ## Step 3 Initialize Database
 Read [ME](create_testing_db.md)
+
+## Step 4 Prepare Node/Angular
+Read [Me](node_setup.md)
