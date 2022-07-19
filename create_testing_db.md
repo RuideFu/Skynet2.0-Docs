@@ -1,4 +1,4 @@
-# Skynet2.0 Create/Recreate Testing Database
+# Create/Recreate Testing Database
 
 __Reed Fu, Created on July 18th, 2022__
 
