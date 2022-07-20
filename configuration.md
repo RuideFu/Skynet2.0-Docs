@@ -5,7 +5,7 @@ Make a private key for your own .cfg file.
 ```sh
 cd your_sknet2.0_root/skynet-scripts
 git checkout v2 
-python3 make_private_key.py
+python3 testing/config/make_private_key.py
 ```
 Take a note of _da directory_ where the script puts your PRIVATE_KEY file in.
 
