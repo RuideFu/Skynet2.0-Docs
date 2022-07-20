@@ -1,5 +1,23 @@
 # Configuration
 
+## Set Environmental Variable
+
+For Mac/Linux,
+
+```sh
+cd
+vi .zshrc #or code .zshrc, anyway open .zshrc with editor of your choice
+```
+
+then put in the following lines
+```sh
+export PYTHONPATH=your_skynet2.0_root/skynet-python
+export SKYNET_CONFIG_ROOT=your_skynet2.0_root/skynet-config/skynet
+```
+For Windows,
+
+Go to control panel and find wherever you change your environment variables and add `your_skynet2.0_root/skynet-python` to your `PYTHONPATH` and a new variable called `SKYNET_CONFIG_ROOT` at `your_skynet2.0_root/skynet-config/skynet`
+
 ## Make Private Key
 Make a private key for your own .cfg file.
 ```sh
