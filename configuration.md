@@ -33,7 +33,6 @@ Make a copy of `your_sknet2.0_root/skynet-config/skynet_db.cfg` into _da directo
 
 Delete, modify, and, add rows to follow the example below
 ```cfg
-DB_USER = "skynet"
 # The key in the PRIVATE_KEY file generated in the previous step
 DB_CRYPT_KEY = "your_key_here" 
 # Modify directory based on your own project root directory
